@@ -247,7 +247,7 @@ async def entrypoint(ctx: JobContext):
 <p>Full example of an agent that handles calls for a restaurant.</p>
 <p>음성 기반 레스토랑 예약 및 주문 에이전트의 전체 워크플로우를 보여주는 예제입니다.</p>
 <p>
-<a href="examples/full_examples/restaurant_agent/">Code</a>
+<a href="examples/voice_agents/restaurant_agent.py">Code</a>
 </p>
 </td>
 <td width="50%">
@@ -360,7 +360,7 @@ async def entrypoint(ctx: JobContext):
 <p>Agent using Gemini Live API for voice and video analysis (track subscription).</p>
 <p>Gemini Live API를 사용하여 음성 대화 및 참가자 비디오를 실시간 분석하는 예제 (트랙 구독 방식).</p>
 <p>
-<a href="examples/vision_agents/basic_agent_gemini.py">Code</a>
+<a href="examples/voice_agents/gemini_video_agent.py">Code</a>
 </p>
 </td>
 <td width="50%">
@@ -368,7 +368,7 @@ async def entrypoint(ctx: JobContext):
 <p>Agent using Gemini Live API for voice and video analysis (session.video_input).</p>
 <p>Gemini Live API를 사용하여 음성 대화 및 참가자 비디오를 실시간 분석하는 예제 (session.video_input 방식).</p>
 <p>
-<a href="examples/vision_agents/basic_agent_gemini_2.py">Code</a>
+<a href="examples/voice_agents/gemini_video_agent.py">Code</a>
 </p>
 </td>
 </tr>
@@ -398,7 +398,7 @@ async def entrypoint(ctx: JobContext):
 <p>Chat listener example using LiveKit TextStream.</p>
 <p>LiveKit TextStream을 사용하여 채팅 및 전사 메시지를 수신하고 콘솔에 출력하는 리스너 예제입니다.</p>
 <p>
-<a href="examples/other/datastream-chat-listener.py">Code</a>
+<a href="examples/other/chat-stream-receiver.py">Code</a>
 </p>
 </td>
 <td width="50%">
@@ -407,82 +407,6 @@ async def entrypoint(ctx: JobContext):
 <p>사용자 입력에 대해 빠른 사전 응답(침묵 채우기)을 생성하는 예제입니다.</p>
 <p>
 <a href="examples/voice_agents/fast-preresponse.py">Code</a>
-</p>
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-<h3>🔩 Raw Function Description Agent</h3>
-<p>Agent demonstrating usage of raw function tools with OpenAI API.</p>
-<p>Raw function tool을 사용하여 OpenAI API 함수 호출 기능을 활용하는 방법을 보여줍니다.</p>
-<p>
-<a href="examples/voice_agents/raw_function_description.py">Code</a>
-</p>
-</td>
-<td width="50%">
-<h3>🌐 Browser Track Publisher</h3>
-<p>Publishing browser page rendering as a video track.</p>
-<p>브라우저 플러그인을 사용하여 페이지 렌더링을 비디오 트랙으로 퍼블리시하는 예제입니다.</p>
-<p>
-<a href="examples/other/browser/browser_track.py">Code</a>
-</p>
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-<h3>🗣️ Echo Agent</h3>
-<p>Agent that echoes user's speech back to them using VAD.</p>
-<p>VAD를 사용하여 사용자 발화를 감지하고 그대로 다시 재생하는 에코 에이전트 예제입니다.</p>
-<p>
-<a href="examples/other/echo-agent/echo-agent.py">Code</a>
-</p>
-</td>
-<td width="50%">
-<h3>🛡️ Hive Moderation Agent</h3>
-<p>Agent performing visual content moderation using Hive API.</p>
-<p>Hive API를 사용하여 시각적 콘텐츠를 검열하는 에이전트 예제입니다.</p>
-<p>
-<a href="examples/other/hive-moderation-agent/">Code</a>
-</p>
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-<h3>👥 Participant Entrypoint</h3>
-<p>Example demonstrating adding participant-specific entrypoints.</p>
-<p>각 참가자에 대해 개별 작업을 실행하는 진입점을 추가하는 방법을 보여주는 예제입니다.</p>
-<p>
-<a href="examples/other/participant-entrypoint/">Code</a>
-</p>
-</td>
-<td width="50%">
-<h3>🎨 Simple Color Video Agent</h3>
-<p>Agent publishing a video track filled with changing solid colors.</p>
-<p>단색으로 채워지고 주기적으로 색상이 변경되는 비디오 트랙을 퍼블리시하는 에이전트 예제입니다.</p>
-<p>
-<a href="examples/other/simple-color/">Code</a>
-</p>
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-<h3>🎤 Standalone STT Transcriber</h3>
-<p>Standalone speech-to-text transcriber agent.</p>
-<p>참가자의 오디오 트랙을 구독하여 실시간으로 전사하는 독립적인 STT 에이전트 예제입니다.</p>
-<p>
-<a href="examples/other/speech-to-text/">Code</a>
-</p>
-</td>
-<td width="50%">
-<h3>🔊 Text-to-Speech Examples</h3>
-<p>Examples using various TTS plugins (OpenAI, Neuphonic, Cartesia, ElevenLabs).</p>
-<p>다양한 TTS 플러그인(OpenAI, Neuphonic, Cartesia, ElevenLabs) 사용법 및 동기화된 전사 출력 예제입니다.</p>
-<p>
-<a href="examples/other/text-to-speech/">Code</a>
 </p>
 </td>
 </tr>
